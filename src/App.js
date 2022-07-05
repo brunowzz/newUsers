@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react"
+import axios from 'axios'
 import Peoples from "./assets/peoples.svg"
 import Arrow from "./assets/arrow.svg"
 import Trash from "./assets/trash.svg"
@@ -12,7 +13,7 @@ import {
   Button,
   User } from "./Styles.js"
 
-async function App() {
+function App() {
   const [users, setUsers] = useState([])
   const inputName = useRef()
   const inputAge = useRef()
