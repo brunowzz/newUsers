@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Bg1 from "./assets/bgscreen1.svg"
+import Bg1 from "../../assets/bgscreen1.svg"
 
 export const Container = styled.div `
     height: 100vh;
@@ -66,7 +66,7 @@ export const Button = styled.button `
     border-radius: 14px;
     border: none;
     outline: none;
-    margin-top: 40px;
+    margin-top: 132px;
     cursor: pointer;
     font-style: normal;
     font-size: 17px;
@@ -81,30 +81,5 @@ export const Button = styled.button `
     }
     &:active {
         opacity: 0.5;
-    }
-`
-
-export const User = styled.li `
-    width: 342px;
-    height: 58px;
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 14px;
-    border: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 28px;
-        color: #FFFFFFFF;
-    }
-    button {
-        background: none;
-        border: none;
-        cursor: pointer;
     }
 `

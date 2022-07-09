@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GlobalStyles from './GlobalStyles.js';
-import App from './App.js';
+import GlobalStyles from './styles/GlobalStyles.js';
+import Routes from './routes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App /> <GlobalStyles />
+    <Routes /> <GlobalStyles />
   </>
 )
 
