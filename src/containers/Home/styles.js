@@ -16,16 +16,6 @@ export const Image = styled.img `
     margin: 30px 0 44.74px 0;
 `
 
-export const ContainerItens = styled.div `
-    width: 414px;
-    height: 100vh;
-    background: linear-gradient(157.44deg, rgba(255, 255, 255, 0.6) 0.84%, rgba(255, 255, 255, 0.6) 0.85%, rgba(255, 255, 255, 0.15) 100%);
-    border-radius: 61px 61px 0px 0px;
-    padding: 50px 36px 74px 36px;
-    display: flex;
-    flex-direction: column;
-`
-
 export const Title = styled.h1 `
     text-align: center;
     font-weight: 700;

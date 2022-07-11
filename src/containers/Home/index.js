@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Peoples from "../../assets/peoples.svg"
 import Arrow from "../../assets/arrow.svg"
+import Title from '../../components/Title'
+import ContainerItens from '../../components/ContainerItens'
 import {
   Container,
   Image,
-  ContainerItens,
-  Title,
   InputLabel,
   Input,
   Button,

@@ -4,13 +4,13 @@ import axios from 'axios'
 import Avatars from "../../assets/avatars.svg"
 import Arrow from "../../assets/arrow-left.svg"
 import Trash from "../../assets/trash.svg"
+import Title from '../../components/Title'
+import ContainerItens from '../../components/ContainerItens'
+import Button from '../../components/Button'
 import {
   Container,
   Image,
-  ContainerItens,
-  Title,
   User, 
-  Button
 } from "./styles.js"
 
 function Users() {
@@ -39,7 +39,7 @@ function Users() {
   return (
     <Container>
       <Image src={Avatars} alt="logo-peoples" />
-      <ContainerItens>
+      <ContainerItens isBlur={true}>
         <Title> Usuários! </Title>
         <ul>
           {users.map(user => (
@@ -50,7 +50,7 @@ function Users() {
             </User>
           ))}
         </ul>
-        <Button onClick={goBackPage}> <img src={Arrow} alt="arrow"/> Voltar </Button>
+        <Button isBack={true} onClick={goBackPage}> <img src={Arrow} alt="arrow"/> Voltar </Button>
       </ContainerItens>
     </Container>
   )
